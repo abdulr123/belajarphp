@@ -1,0 +1,1 @@
+var arraymultidimensi = ['nama', 2 , 'false', 'myFunc', [6,7,8]];
