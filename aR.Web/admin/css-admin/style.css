@@ -1,0 +1,64 @@
+body{
+	
+    font-family: 'Quicksand', sans-serif;
+}
+
+.wrapper{
+	width: 100%;
+	height: 100%;
+}
+.navbar{
+	margin-bottom: 0;
+}
+.sidebar{
+	width: 100%;
+	height: 100%;
+	background: #293949;
+	position: absolute;
+	z-index: 100;
+}
+ul{
+	padding: 0;
+	margin-left: -40px;
+}
+ul li{
+	list-style: none;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5); 
+}
+ul li a{
+	text-decoration: none;
+	color: #aeb2b7;
+	display: block;
+	padding: 19px 0px 18px 25px;
+	transition: all 200ms ease-in;
+}
+ul li a:hover{
+	text-decoration: none;
+	color: #1abc9c;
+}
+ul li a:visited{
+	text-decoration: none;
+	color: #fff;
+}
+li li a span{
+	display: inline-block;
+}
+ul ul{
+	display: none;
+	margin:0px;
+}
+ul li a .fa-angle-down{
+	margin-right: 10px;
+}
+/*apabila lebar min 768px*/
+@media(min-width: 768px) {
+	.sidebar{
+		width: 240px;
+	}
+	.content{
+		margin-left: 250px;
+	}
+	.inner{
+		padding: 15px;
+	}
+}
